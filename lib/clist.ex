@@ -198,6 +198,13 @@ defmodule MavuContent.Clist do
     end
   end
 
+  def update(clist, path, uid, new_data)
+      when is_map(new_data) and is_binary(path) and is_list(clist) and is_binary(uid) do
+    access_list = get_access_list_for_path_and_uid(path, uid)
+
+    update_in(clist, access_list, fn item -> Map.merge(item, new_data) end)
+  end
+
   def flatten([head | tail]), do: flatten(head) ++ flatten(tail)
   def flatten([]), do: []
   def flatten(element), do: [element]
