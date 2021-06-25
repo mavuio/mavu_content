@@ -1,7 +1,7 @@
 defmodule MavuContent.MixProject do
   use Mix.Project
 
-  @version "0.1.1"
+  @version "0.1.2"
   def project do
     [
       app: :mavu_content,
@@ -35,7 +35,7 @@ defmodule MavuContent.MixProject do
   end
 
   defp description() do
-    "MavuContent: Content - Management for mavu_* projects"
+    "MavuContent: base-level functions to craete Content-Tree functionality in mavu_* projects"
   end
 
   defp package() do

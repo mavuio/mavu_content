@@ -1,21 +1,7 @@
-# MavuContent
+# Mavu Content
 
-**TODO: Add description**
 
-## Installation
+functions to handle nested json-trees representing page-content
+to build CMS-functionality in mavu-* Projects
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `eigenart` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:eigenart, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/eigenart](https://hexdocs.pm/eigenart).
-
+No description yet
